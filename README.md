@@ -6,17 +6,17 @@ TITLE: Suspicious Discussion Detection
 
 - Requirements: There are some general library requirements for the project as follows:
 
-• Keras
+  • Keras
 
-• Tensorflow
+  • Tensorflow
 
-• Scikit-learn
+  • Scikit-learn
 
-• Numpy
+  • Numpy
 
-• Pandas
+  • Pandas
 
-• Scrapy
+  • Scrapy
 
 Further, there are program related dependencies as follows: • Crawler: MongoDB is required to store the scraped data • Aspect Generation: Uses Magnitude for vector embeddings. File can be downloaded from the following link: https://github.com/plasticityai/magnitude • Suspicious Detection: Download pre-trained Twitter word vectors, extract the glove.twitter.27B.zip and glove.42B.300d.zip to the root directory.
 
