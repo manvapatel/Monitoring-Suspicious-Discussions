@@ -1,0 +1,1 @@
+Extract aspects from the sentence. Aspects are of the following five categories- political, terrorism, social, racism and abusive Uses Magnitude for vector embeddings. Link for file download: https://github.com/plasticityai/magnitude
