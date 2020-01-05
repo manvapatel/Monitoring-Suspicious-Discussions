@@ -18,11 +18,12 @@ TITLE: Suspicious Discussion Detection
 
   • Scrapy
 
-Further, there are program related dependencies as follows: • Crawler: MongoDB is required to store the scraped data • Aspect Generation: Uses Magnitude for vector embeddings. File can be downloaded from the following link: https://github.com/plasticityai/magnitude • Suspicious Detection: Download pre-trained Twitter word vectors, extract the glove.twitter.27B.zip and glove.42B.300d.zip to the root directory.
+  Further, there are program related dependencies as follows: 
+  • Crawler: MongoDB is required to store the scraped data 
+  • Aspect Generation: Uses Magnitude for vector embeddings. File can be downloaded from the following link:          https://github.com/plasticityai/magnitude 
+  • Suspicious Detection: Download pre-trained Twitter word vectors, extract the glove.twitter.27B.zip and glove.42B.300d.zip to the   root directory.
 
-- Usage:
-
-Scraping: Using scrapy, we have crawled the data of Twitter using Hashtags. The data is stored in MongoDB and it contains attributes like Username, TweetID, Tweet, URL, Hashtags,etc. The command to run the program is given in twitter_run.bat file in TweetScraper. Further, we have also crawled the data of blogspot and wordpress. It contains the following attributes: Date, Author, Title, Paragraph, Comment-name and Comment-content.
+- Usage: Scraping: Using scrapy, we have crawled the data of Twitter using Hashtags. The data is stored in MongoDB and it contains attributes like Username, TweetID, Tweet, URL, Hashtags,etc. The command to run the program is given in twitter_run.bat file in TweetScraper. Further, we have also crawled the data of blogspot and wordpress. It contains the following attributes: Date, Author, Title, Paragraph, Comment-name and Comment-content.
 
 - Preprocessing: The data stored in the database is pre-processed using twitter_preprocess.py. It removes blank space, #, @ and urls from the data and stores this data in a csv file. The code is run as follows: python preprocess.py
 
